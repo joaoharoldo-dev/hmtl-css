@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar o meu <a href="https://github.com/joaoharoldo-dev" target="_blank" rel="external">GitHub</a></p>
+    <!--Quando for abrir um site que não é seu é ideal abrir em outra aba q é o _blank e colocar o rel pra dizer q é external-->
+    <h1>Usando links internos</h1>
+    <p>Essa é a minha primeira página do site. Se você quiser, pode acessar
+        também a minha <a href="pag002.html" rel="next" target="_self">Segunda página</a></p>
+        <!--Usar o rel="next" para link externo que quer dizer próxima página-->
+        <!--Usa-se o rel="nofollow" quando você vai colocar um outro link de empresa mais não sabe se é oficial.-->
+        <p>Você também pode acessar nossa <a href="noticias/pag003.html" rel="next" target="_self">página de noticias</a></p>
+        <!--O target="_self" é pra dizer que vai abrir na própria aba.-->
+        <h1>Links para download</h1>
+        <ul>
+            <li><a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixar o livro em pdf</a></li>
+            <li><a href="livro/meulivro.zip" download="meulivro.zip" type="application/zip">Livro compactado em ZIP</a></li>
+        </ul>
+</body>
+</html>
